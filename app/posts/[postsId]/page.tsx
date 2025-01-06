@@ -42,7 +42,7 @@ export default async function Post({ params }: { params: { postId: string }} ) {
 
     const pubDate = getFormattedDate(date)
 
-    console.log(posts, '<<<<<<<<<<<')
+    // console.log(posts, '<<<<<<<<<<<')
 
     return (
         <main className="px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
